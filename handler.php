@@ -32,7 +32,7 @@
 			$outputstring = $nama.",".$nim.",".$prodi.",".$jenkel.",".$tempat_lahir.",".$tgl_lahir.","
 			.$alamat.",".$telp.",".$email.",".$user.",".$pass."\n";
 
-			$fh = fopen('save.txt', 'a+') or die("Tidak dapat membuka file");
+			$fh = fopen('save.csv', 'a+') or die("Tidak dapat membuka file");
 
 			fwrite($fh, $outputstring, strlen($outputstring));
 			fclose($fh);

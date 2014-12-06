@@ -22,7 +22,7 @@
 			</div>
 			<div class="panel-body">
 			<?php
-			$fs = fopen('save.txt','r') or die("Tidak dapat mebuka file");
+			$fs = fopen('save.csv','r') or die("Tidak dapat mebuka file");
 				echo "<table class='table table-condensed table-bordered table-striped'> 
 					<tr>
 						<th>Nama Lengkap</th>
